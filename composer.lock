@@ -1,11 +1,10 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "hash": "f3a9f4a27d3d03c5a55386db5599af10",
-    "content-hash": "06dc085d393209484a3a7ffe9474ab28",
+    "content-hash": "e167513dd81d8c06dccb70201473c808",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -67,7 +66,7 @@
                 "tar",
                 "zip"
             ],
-            "time": "2016-02-15 22:46:40"
+            "time": "2016-02-15T22:46:40+00:00"
         },
         {
             "name": "composer/installers",
@@ -167,7 +166,7 @@
                 "zend",
                 "zikula"
             ],
-            "time": "2016-04-13 19:46:30"
+            "time": "2016-04-13T19:46:30+00:00"
         },
         {
             "name": "dflydev/placeholder-resolver",
@@ -219,7 +218,7 @@
                 "placeholder",
                 "resolver"
             ],
-            "time": "2012-10-28 21:08:28"
+            "time": "2012-10-28T21:08:28+00:00"
         },
         {
             "name": "doctrine/annotations",
@@ -287,7 +286,7 @@
                 "docblock",
                 "parser"
             ],
-            "time": "2015-08-31 12:32:49"
+            "time": "2015-08-31T12:32:49+00:00"
         },
         {
             "name": "doctrine/collections",
@@ -353,7 +352,7 @@
                 "collections",
                 "iterator"
             ],
-            "time": "2015-04-14 22:21:58"
+            "time": "2015-04-14T22:21:58+00:00"
         },
         {
             "name": "doctrine/lexer",
@@ -407,7 +406,7 @@
                 "lexer",
                 "parser"
             ],
-            "time": "2014-09-09 13:34:57"
+            "time": "2014-09-09T13:34:57+00:00"
         },
         {
             "name": "gabordemooij/redbean",
@@ -448,7 +447,7 @@
             "keywords": [
                 "orm"
             ],
-            "time": "2016-05-01 10:27:43"
+            "time": "2016-05-01T10:27:43+00:00"
         },
         {
             "name": "guzzlehttp/guzzle",
@@ -510,7 +509,7 @@
                 "rest",
                 "web service"
             ],
-            "time": "2016-03-21 20:02:09"
+            "time": "2016-03-21T20:02:09+00:00"
         },
         {
             "name": "guzzlehttp/promises",
@@ -561,7 +560,7 @@
             "keywords": [
                 "promise"
             ],
-            "time": "2016-05-18 16:56:05"
+            "time": "2016-05-18T16:56:05+00:00"
         },
         {
             "name": "guzzlehttp/psr7",
@@ -619,7 +618,7 @@
                 "stream",
                 "uri"
             ],
-            "time": "2016-04-13 19:56:01"
+            "time": "2016-04-13T19:56:01+00:00"
         },
         {
             "name": "ircmaxell/password-compat",
@@ -661,19 +660,19 @@
                 "hashing",
                 "password"
             ],
-            "time": "2014-11-20 16:49:30"
+            "time": "2014-11-20T16:49:30+00:00"
         },
         {
             "name": "padraic/humbug_get_contents",
             "version": "1.0.4",
             "source": {
                 "type": "git",
-                "url": "https://github.com/padraic/file_get_contents.git",
+                "url": "https://github.com/humbug/file_get_contents.git",
                 "reference": "66797199019d0cb4529cb8d29c6f0b4c5085b53a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/padraic/file_get_contents/zipball/66797199019d0cb4529cb8d29c6f0b4c5085b53a",
+                "url": "https://api.github.com/repos/humbug/file_get_contents/zipball/66797199019d0cb4529cb8d29c6f0b4c5085b53a",
                 "reference": "66797199019d0cb4529cb8d29c6f0b4c5085b53a",
                 "shasum": ""
             },
@@ -718,28 +717,28 @@
                 "ssl",
                 "tls"
             ],
-            "time": "2015-04-22 18:45:00"
+            "time": "2015-04-22T18:45:00+00:00"
         },
         {
             "name": "padraic/phar-updater",
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/padraic/phar-updater.git",
-                "reference": "c17eeb3887dc4269d1b4837dc875d39e9f8149a8"
+                "url": "https://github.com/humbug/phar-updater.git",
+                "reference": "e5a5da3dc3344031271157c7f10b0fa04afffa9b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/padraic/phar-updater/zipball/c17eeb3887dc4269d1b4837dc875d39e9f8149a8",
-                "reference": "c17eeb3887dc4269d1b4837dc875d39e9f8149a8",
+                "url": "https://api.github.com/repos/humbug/phar-updater/zipball/e5a5da3dc3344031271157c7f10b0fa04afffa9b",
+                "reference": "e5a5da3dc3344031271157c7f10b0fa04afffa9b",
                 "shasum": ""
             },
             "require": {
                 "padraic/humbug_get_contents": "^1.0",
-                "php": ">=5.3.3"
+                "php": "^5.6|^7.0"
             },
             "require-dev": {
-                "phpunit/phpunit": "~4.0"
+                "phpunit/phpunit": "^5.5|^6.0"
             },
             "type": "library",
             "extra": {
@@ -758,7 +757,7 @@
             ],
             "authors": [
                 {
-                    "name": "Pádraic Brady",
+                    "name": "Padraic Brady",
                     "email": "padraic.brady@gmail.com",
                     "homepage": "http://blog.astrumfutura.com"
                 }
@@ -770,7 +769,8 @@
                 "self-update",
                 "update"
             ],
-            "time": "2016-01-05 23:08:01"
+            "abandoned": true,
+            "time": "2017-11-01T16:56:56+00:00"
         },
         {
             "name": "phpseclib/phpseclib",
@@ -862,7 +862,7 @@
                 "x.509",
                 "x509"
             ],
-            "time": "2016-05-13 01:15:21"
+            "time": "2016-05-13T01:15:21+00:00"
         },
         {
             "name": "psr/http-message",
@@ -911,7 +911,7 @@
                 "request",
                 "response"
             ],
-            "time": "2015-05-04 20:22:00"
+            "time": "2015-05-04T20:22:00+00:00"
         },
         {
             "name": "psr/log",
@@ -949,7 +949,7 @@
                 "psr",
                 "psr-3"
             ],
-            "time": "2012-12-21 11:40:51"
+            "time": "2012-12-21T11:40:51+00:00"
         },
         {
             "name": "stecman/symfony-console-completion",
@@ -994,7 +994,7 @@
                 }
             ],
             "description": "Automatic BASH completion for Symfony Console Component based applications.",
-            "time": "2015-05-07 12:21:50"
+            "time": "2015-05-07T12:21:50+00:00"
         },
         {
             "name": "symfony/config",
@@ -1047,7 +1047,7 @@
             ],
             "description": "Symfony Config Component",
             "homepage": "https://symfony.com",
-            "time": "2016-04-20 18:52:26"
+            "time": "2016-04-20T18:52:26+00:00"
         },
         {
             "name": "symfony/console",
@@ -1107,7 +1107,7 @@
             ],
             "description": "Symfony Console Component",
             "homepage": "https://symfony.com",
-            "time": "2016-04-26 12:00:47"
+            "time": "2016-04-26T12:00:47+00:00"
         },
         {
             "name": "symfony/css-selector",
@@ -1160,7 +1160,7 @@
             ],
             "description": "Symfony CssSelector Component",
             "homepage": "https://symfony.com",
-            "time": "2016-03-04 07:54:35"
+            "time": "2016-03-04T07:54:35+00:00"
         },
         {
             "name": "symfony/debug",
@@ -1217,7 +1217,7 @@
             ],
             "description": "Symfony Debug Component",
             "homepage": "https://symfony.com",
-            "time": "2016-03-30 10:37:34"
+            "time": "2016-03-30T10:37:34+00:00"
         },
         {
             "name": "symfony/dependency-injection",
@@ -1280,7 +1280,7 @@
             ],
             "description": "Symfony DependencyInjection Component",
             "homepage": "https://symfony.com",
-            "time": "2016-05-09 18:12:35"
+            "time": "2016-05-09T18:12:35+00:00"
         },
         {
             "name": "symfony/dom-crawler",
@@ -1336,7 +1336,7 @@
             ],
             "description": "Symfony DomCrawler Component",
             "homepage": "https://symfony.com",
-            "time": "2016-04-12 18:01:21"
+            "time": "2016-04-12T18:01:21+00:00"
         },
         {
             "name": "symfony/event-dispatcher",
@@ -1396,7 +1396,7 @@
             ],
             "description": "Symfony EventDispatcher Component",
             "homepage": "https://symfony.com",
-            "time": "2016-05-03 18:59:18"
+            "time": "2016-05-03T18:59:18+00:00"
         },
         {
             "name": "symfony/filesystem",
@@ -1445,7 +1445,7 @@
             ],
             "description": "Symfony Filesystem Component",
             "homepage": "https://symfony.com",
-            "time": "2016-04-12 18:01:21"
+            "time": "2016-04-12T18:01:21+00:00"
         },
         {
             "name": "symfony/finder",
@@ -1494,20 +1494,20 @@
             ],
             "description": "Symfony Finder Component",
             "homepage": "https://symfony.com",
-            "time": "2016-03-10 10:53:53"
+            "time": "2016-03-10T10:53:53+00:00"
         },
         {
             "name": "symfony/http-foundation",
-            "version": "v2.8.6",
+            "version": "v2.8.52",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/http-foundation.git",
-                "reference": "ed9357bf86f041bd69a197742ee22c97989467d7"
+                "reference": "3929d9fe8148d17819ad0178c748b8d339420709"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/http-foundation/zipball/ed9357bf86f041bd69a197742ee22c97989467d7",
-                "reference": "ed9357bf86f041bd69a197742ee22c97989467d7",
+                "url": "https://api.github.com/repos/symfony/http-foundation/zipball/3929d9fe8148d17819ad0178c748b8d339420709",
+                "reference": "3929d9fe8148d17819ad0178c748b8d339420709",
                 "shasum": ""
             },
             "require": {
@@ -1549,20 +1549,20 @@
             ],
             "description": "Symfony HttpFoundation Component",
             "homepage": "https://symfony.com",
-            "time": "2016-04-05 16:36:54"
+            "time": "2019-11-12T12:34:41+00:00"
         },
         {
             "name": "symfony/polyfill-mbstring",
-            "version": "v1.2.0",
+            "version": "v1.19.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-mbstring.git",
-                "reference": "dff51f72b0706335131b00a7f49606168c582594"
+                "reference": "b5f7b932ee6fa802fc792eabd77c4c88084517ce"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/dff51f72b0706335131b00a7f49606168c582594",
-                "reference": "dff51f72b0706335131b00a7f49606168c582594",
+                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/b5f7b932ee6fa802fc792eabd77c4c88084517ce",
+                "reference": "b5f7b932ee6fa802fc792eabd77c4c88084517ce",
                 "shasum": ""
             },
             "require": {
@@ -1574,7 +1574,11 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.2-dev"
+                    "dev-main": "1.19-dev"
+                },
+                "thanks": {
+                    "name": "symfony/polyfill",
+                    "url": "https://github.com/symfony/polyfill"
                 }
             },
             "autoload": {
@@ -1608,20 +1612,34 @@
                 "portable",
                 "shim"
             ],
-            "time": "2016-05-18 14:26:46"
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2020-10-23T09:01:57+00:00"
         },
         {
             "name": "symfony/polyfill-php54",
-            "version": "v1.2.0",
+            "version": "v1.19.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-php54.git",
-                "reference": "34d761992f6f2cc6092cc0e5e93f38b53ba5e4f1"
+                "reference": "c248bab30dad46a5f3917e7d92907e148bdc50c6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-php54/zipball/34d761992f6f2cc6092cc0e5e93f38b53ba5e4f1",
-                "reference": "34d761992f6f2cc6092cc0e5e93f38b53ba5e4f1",
+                "url": "https://api.github.com/repos/symfony/polyfill-php54/zipball/c248bab30dad46a5f3917e7d92907e148bdc50c6",
+                "reference": "c248bab30dad46a5f3917e7d92907e148bdc50c6",
                 "shasum": ""
             },
             "require": {
@@ -1630,7 +1648,11 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.2-dev"
+                    "dev-main": "1.19-dev"
+                },
+                "thanks": {
+                    "name": "symfony/polyfill",
+                    "url": "https://github.com/symfony/polyfill"
                 }
             },
             "autoload": {
@@ -1666,20 +1688,34 @@
                 "portable",
                 "shim"
             ],
-            "time": "2016-05-18 14:26:46"
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2020-10-23T09:01:57+00:00"
         },
         {
             "name": "symfony/polyfill-php55",
-            "version": "v1.2.0",
+            "version": "v1.19.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-php55.git",
-                "reference": "bf2ff9ad6be1a4772cb873e4eea94d70daa95c6d"
+                "reference": "248a5c9877b126493abb661e4fb47792e418035b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-php55/zipball/bf2ff9ad6be1a4772cb873e4eea94d70daa95c6d",
-                "reference": "bf2ff9ad6be1a4772cb873e4eea94d70daa95c6d",
+                "url": "https://api.github.com/repos/symfony/polyfill-php55/zipball/248a5c9877b126493abb661e4fb47792e418035b",
+                "reference": "248a5c9877b126493abb661e4fb47792e418035b",
                 "shasum": ""
             },
             "require": {
@@ -1689,7 +1725,11 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.2-dev"
+                    "dev-main": "1.19-dev"
+                },
+                "thanks": {
+                    "name": "symfony/polyfill",
+                    "url": "https://github.com/symfony/polyfill"
                 }
             },
             "autoload": {
@@ -1722,7 +1762,21 @@
                 "portable",
                 "shim"
             ],
-            "time": "2016-05-18 14:26:46"
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2020-10-23T09:01:57+00:00"
         },
         {
             "name": "symfony/process",
@@ -1771,7 +1825,7 @@
             ],
             "description": "Symfony Process Component",
             "homepage": "https://symfony.com",
-            "time": "2016-04-12 19:11:33"
+            "time": "2016-04-12T19:11:33+00:00"
         },
         {
             "name": "symfony/translation",
@@ -1835,7 +1889,7 @@
             ],
             "description": "Symfony Translation Component",
             "homepage": "https://symfony.com",
-            "time": "2016-03-25 01:40:30"
+            "time": "2016-03-25T01:40:30+00:00"
         },
         {
             "name": "symfony/yaml",
@@ -1884,7 +1938,7 @@
             ],
             "description": "Symfony Yaml Component",
             "homepage": "https://symfony.com",
-            "time": "2016-03-29 19:00:15"
+            "time": "2016-03-29T19:00:15+00:00"
         },
         {
             "name": "twig/twig",
@@ -1945,7 +1999,7 @@
             "keywords": [
                 "templating"
             ],
-            "time": "2016-05-30 09:11:59"
+            "time": "2016-05-30T09:11:59+00:00"
         }
     ],
     "packages-dev": [],
@@ -1958,7 +2012,8 @@
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
-        "php": ">=5.5.9"
+        "php": "^5.6 || ^7.0"
     },
-    "platform-dev": []
+    "platform-dev": [],
+    "plugin-api-version": "1.1.0"
 }
